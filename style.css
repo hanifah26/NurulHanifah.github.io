@@ -1,1 +1,118 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+}
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(gambar01.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid;
+	transition: 0.6s;
+	margin-top: 10px;
+}
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+.logo{
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+
+.main{
+	max-width: 1200px;
+	margin: auto;
+	width:200;
+}
+.title{
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	text-align: center;
+	transform: translate(-50%,-50%);
+	color: white;
+	font-size: 55px;
+	font-family: sans-serif;
+}
+
+.button{
+	position: absolute;
+	top: 55%;
+	left: 35%;
+	transform: translate(-50%;-50%);
+}
+.btn1{
+	border: 1px solid;
+	padding: 10px 50px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.9s ease;
+	border-radius: 5px;
+	margin: 10px;
+}
+.btn1:hover{
+	background: #fff;
+	color: #000;
+}
+
+.konten{
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
+.judul{
+	margin-top: 30px;
+	text-align: center;
+	font-size: 40px;
+}
+
+.footer-div ul{
+	float: left;
+	list-style-type: none;
+	margin-top: 25px;
+}
+.footer-div ul li{
+	display: block;
+}
+
+.footer-font{
+	padding-top: 10px;
+	color: white;
+}
+
+footer{
+	width: auto;
+	height: 130px;
+	background-color: black;
+
+}
+.footer-logo{
+	width: 50px;
+	height: 50px;
+	float: left;
+}
+.PPizzuna-footer{
+	padding-left: 5%;
+}
+
 
