@@ -61,6 +61,7 @@ ul li.active a{
 	left: 35%;
 	transform: translate(-50%;-50%);
 }
+
 .btn1{
 	border: 1px solid;
 	padding: 10px 50px;
@@ -114,5 +115,86 @@ footer{
 .PPizzuna-footer{
 	padding-left: 5%;
 }
+.font-color{
+	color: white;
+	position: absolute;
+	top: 65%;
+	left: 35%;
+	transform: translate(-50%;-50%);
+	text-align: center;
+	font-size: 30px;
+}
+
+@media(max-width: 1000px){
+}
+@media(max-width: : 1000px){
+	h1{
+		color: blue;
+	}
+}
+@media(max-width: 1000px){
+	.item{
+		width: 50%;
+	}
+	.main{
+		width: 50%;
+	}
+
+}
+
+*{
+	box-sizing: border-box;
+}
+
+@media(max-width: 1000px){
+	.second-item{
+		width: 50%;
+	}
+}
+.clear{
+	clear: left;
+}
+@media(max-width: 670px){
+	.second-item{
+		width: 100%;
+	}
+	.title{
+		width: 100%;
+	}
+	.main{
+		width: 100%;
+	}
+}
+@media(max-width: 670px){
+	footer{
+		text-align: center;
+	}
+}
+@media(max-width: 670px){
+	.button{
+		width: 100%;
+	}
 
 
+}
+@media(max-width: 670){
+
+}
+
+.container{
+	max-width: 1170px;
+	width: 100%;
+
+}
+@media(max-width: 670){
+	.header-right{
+		display: none;
+		display: block;
+	}
+}
+@media(max-width: 670){
+	footer{
+		display: none;
+		display: block;
+	}
+}
