@@ -55,14 +55,21 @@ ul li.active a{
 	font-family: sans-serif;
 }
 
-.button{
+/*.button{
 	position: absolute;
 	top: 55%;
 	left: 35%;
 	transform: translate(-50%;-50%);
 }
-
+*/
 .btn1{
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	text-align: center;
+	transform: translate(-50%,-50%);
+	color: white;
+
 	border: 1px solid;
 	padding: 10px 50px;
 	color: #fff;
@@ -116,12 +123,12 @@ footer{
 	padding-left: 5%;
 }
 .font-color{
-	color: white;
 	position: absolute;
-	top: 65%;
-	left: 35%;
-	transform: translate(-50%;-50%);
+	top: 70%;
+	left: 50%;
 	text-align: center;
+	transform: translate(-50%,-50%);
+	color: white;
 	font-size: 30px;
 }
 
