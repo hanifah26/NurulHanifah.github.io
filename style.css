@@ -179,7 +179,27 @@ footer{
 }
 @media(max-width: 670px){
 	.button{
-		width: 100%;
+		width: 50%;
+	}
+	.title{
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	text-align: center;
+	transform: translate(-50%,-50%);
+	color: white;
+	font-size: 30px;
+	font-family: sans-serif;
+	}
+
+	.font-color{
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	text-align: center;
+	transform: translate(-50%,-50%);
+	color: white;
+	font-size: 15px;
 	}
 
 
