@@ -2,6 +2,9 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport"
+	content='width=device-width,initial-scale=1.0'>
+	<link rel="stylesheet" href="responsive.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
@@ -20,13 +23,31 @@
 				<li><a href="#">Contact</a></li>
 			</ul>
 		</div>
+
+	</header>
+
+	<div class="second-item">
+
+		<div class="clear">
+			
+		</div>
+		
 		<div class="button">
 			<a href="#" class="btn1">selamat datang di website kami</a>
 		</div>
 		<div >
 			<h2 class="title">PONDOK PESANTREN IZZUNA</h2>
 		</div>
-	</header>
+		<div>
+			<div class="font-color">
+      <p id="tanggal"></p>
+      <h3>
+        <p id="jam"></p>
+      </h3>
+  </div>
+			
+		</div>
+		</div>
 
 	<div class="konten">
 		<h2 class="judul">MOTTO</h2>
@@ -62,10 +83,29 @@
 			</div>
 		</div>
 	</footer>
-
-
-
+<script type="text/javascript"  src="script.js"></script>
 
 <!--  -->
+<script type="text/javascript" id="abc">
+    window.setTimeout("waktu()",1000);
+
+    function waktu(){
+      var waktu = new Date();
+      var day = ["Ahad","Senin","Selasa","Rabu","Kamis","Jum'at","Sabtu"];
+      var bulan = ["Januari","Februari","Maret","April","Mei","Juni","Juli","Agustus","September","Oktober","November","Desember"]
+      setTimeout("waktu()", 1000);
+      var hari = day[waktu.getDay()];
+      var tanggal = waktu.getDate();
+      var bulan = bulan[waktu.getMonth()];
+      var tahun = waktu.getFullYear();
+      var jam = waktu.getHours();
+      var menit = waktu.getMinutes();
+      var detik = waktu.getSeconds();
+
+      document.getElementById("tanggal").innerHTML = hari + ", "+tanggal+" "+bulan+" "+tahun;
+      document.getElementById("jam").innerHTML = jam + " : " + menit +" : "+detik;
+    }
+    
+  </script>
 </body>
 </html>
